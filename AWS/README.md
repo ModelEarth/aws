@@ -93,6 +93,32 @@ Project: Georgia Directory
 Credential page
 -->
 
+## Building Locally and Deploying to GitHub Pages using Docs folder
+
+Build in VSCode
+
+	yarn build
+
+	serve -s build
+
+Actually, use instead so edits appear instantly:  
+
+	npm start
+
+
+Copied build to docs folder for Github Pages
+For now, replaced "/ with "
+
+Replace %PUBLIC_URL% with . in public/index.html
+
+Exception to instructions, use the following within package.json
+
+	"homepage": "."
+
+Source: [How to deploy your site to a subfolder](https://skryvets.com/blog/2018/09/20/an-elegant-solution-of-deploying-react-app-into-a-subdirectory/)
+
+
+
 ## Add Cognito
 
 Try using and documenting activating Cognito within the Amplify Console first.  
@@ -135,4 +161,7 @@ https://hackernoon.com/understanding-expo-for-react-native-7bf23054bbcd
 
 	"Many experienced React Native developers do not use Expo. Once you get comfortable with all the steps required to configure your projects yourself and deploy your apps, the benefits of Expo are greatly diminished. Also, if you’re looking for a way to handle over-the-air deployments, Microsoft’s CodePush is still best-in-class.""
 -->
+
+
+
 
