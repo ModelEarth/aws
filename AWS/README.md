@@ -18,7 +18,10 @@ Local edits appear instantly in browser - by using `npm start`
 
 [AWS Terminology](terminology.html) | 
 [Notes on Aurora DB and SageMaker](notes.html)  
-<br>
+
+We're hosting on AWS. You can also use Azure, Firebase, [See more, plus helpful routing info](https://create-react-app.dev/docs/deployment/)  
+Also see [monorepo setup](https://aws.amazon.com/blogs/mobile/set-up-continuous-deployment-and-hosting-for-a-monorepo-with-aws-amplify-console/) which could be used for ballotnav's 2 repos.
+<br><br>
 
 # We used the following setup steps
 
