@@ -152,10 +152,9 @@ Compare to these steps:
 
 # Gatsby
 
-https://ealtili.medium.com/deploy-gatsby-with-aws-amplify-console-cli-and-aws-cognito-aws-appsync-a94a48d73465  
+[Deploy Gatsby with-AWS Cognito](https://ealtili.medium.com/deploy-gatsby-with-aws-amplify-console-cli-and-aws-cognito-aws-appsync-a94a48d73465) - Didn't do this  
 
-Some videos to check out: containers, and machine learning/AI
-https://www.youtube.com/watch?v=3a86SFIRvVA
+Some videos to check out: [containers, and machine learning/AI](https://www.youtube.com/watch?v=3a86SFIRvVA)
 
 <!--
 # Expo for React Native - starter, then detach

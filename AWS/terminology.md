@@ -59,6 +59,7 @@ Beanstalk - A single process to commit code, review with the team, and deploy th
 
 Beanstalk feels like CloudFormation "lite" for webapps. A post "I do appreciate that Beanstalk leaves its architecture out in the open for you, but I've never found it to be much of a time saver."
 
+---
 
 INCLUDED IN VS CODE AWS TOOLKIT
 
@@ -67,8 +68,8 @@ AWS CloudFormation - use a template to create, update, and delete an entire stac
 AWS Serverless Applications Model (SAM) - you define using YAML.  SAM syntax is expanded into AWS CloudFormation syntax, enabling you to build serverless applications faster.
 (Similar Google Cloud Composer is built atop the open-source Apache Airflow with workflow definitions via Python)
 
-
-
+---
+<br>
 
 
 Elastic Container Service (Amazon ECS) - a container management service that supports Docker.  With EC2 ECS is managed for you.  Managed Kubernetes Service (EKS) best way to manage Kubernetes - has VPC as first-class network.
