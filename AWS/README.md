@@ -1,8 +1,3 @@
-
-
-Amplify Ecosystem - [Graphic in video](https://www.youtube.com/watch?v=y7AesEGIRYM&feature=youtu.be&t=145)  
-Amplify Docs - [Javascript Libraries](https://docs.amplify.aws/lib/q/platform/js)  
-
 # Our Amplify React App
 
 Cooresponding Github repo: [modelearth/amplifyapp](https://github.com/modelearth/amplifyapp/) 
@@ -10,8 +5,12 @@ and resulting websites:
 1. [Via AmplifyApp.com on AWS](https://main.d13yspuepcv5kl.amplifyapp.com/) - CI/CD  
 2. [Via GitHub Pages Docs folder](https://model.earth/amplifyapp/) - Manual copy of build folder  
 
+Amplify Ecosystem - [Graphic in video](https://www.youtube.com/watch?v=y7AesEGIRYM&feature=youtu.be&t=145)  
+Amplify Docs - [Javascript Libraries](https://docs.amplify.aws/lib/q/platform/js)  
+
+
 **What's cool:**  
-Github deployments update website automatically  
+Github deployments update AmplifyApp.com website automatically  
 Local edits appear instantly in browser - by using `npm start`  
 
 [Amplify Console](https://console.aws.amazon.com/amplify/home) - 
