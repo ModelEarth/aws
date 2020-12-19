@@ -5,12 +5,14 @@ Amplify Docs - [Javascript Libraries](https://docs.amplify.aws/lib/q/platform/js
 
 # Our Amplify React App
 
-Cooresponding Github repo: [modelearth/amplifyapp](https://github.com/modelearth/amplifyapp/) and resulting website: 
-[Code for America AmplifyApp](https://main.d13yspuepcv5kl.amplifyapp.com/)  
+Cooresponding Github repo: [modelearth/amplifyapp](https://github.com/modelearth/amplifyapp/) 
+and resulting websites:  
+1. [Via AmplifyApp.com on AWS](https://main.d13yspuepcv5kl.amplifyapp.com/) - CI/CD  
+2. [Via GitHub Pages Docs folder](https://model.earth/amplifyapp/) - Manual copy of build folder  
 
 **What's cool:**  
-Github deployments update website automatically.  
-Local edits appear instantly in browser.  
+Github deployments update website automatically  
+Local edits appear instantly in browser - by using `npm start`  
 
 [Amplify Console](https://console.aws.amazon.com/amplify/home) - 
 [About the Console](https://docs.aws.amazon.com/amplify/latest/userguide/) - Backend admin users invited within Admin UI  
