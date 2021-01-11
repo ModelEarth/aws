@@ -100,6 +100,4 @@ Cloud Guru - AWS Online Training and Certifications
 independent, unlimited repeats.  
 https://acloudguru.com/aws-cloud-training
 
-
-
-
+[Terminology](terminology.html)  

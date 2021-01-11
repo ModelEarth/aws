@@ -104,4 +104,4 @@ Amazon RedShift - most popular data warehouse
 Amazon S3 - most popular choice for data lakes. Set up tiers to lower class storage.
 AWS Lake Formation - in preview - build, secure and manage data lake. Crawl and catalog.
 
-
+[Continue](notes.html)  
