@@ -18,6 +18,14 @@ List of users:
 https://console.aws.amazon.com/iam/home#/roles
 
 
+We created an Image of our Windows instance.
+
+Amazon Machine Images (AMI) includes:
+- Related Amazon Elastic Block Store (EBS) snapshots - for the related drives
+- Launch permissions for which AWS accounts can use the AMI to launch instances
+- A block device mapping indicating the volumes to attach to the instance
+
+
 AWS Comprehend - Natural language processing (NLP)  
 
 Amazon EMR (Elastic MapReduce) = Spark/Hadoop  

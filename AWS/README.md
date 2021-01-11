@@ -2,7 +2,7 @@
 
 Cooresponding Github repo: [modelearth/amplifyapp](https://github.com/modelearth/amplifyapp/) 
 and resulting websites:  
-1. [Via AmplifyApp.com on AWS](https://main.d13yspuepcv5kl.amplifyapp.com/) - CI/CD  
+1. [Via AmplifyApp.com on AWS](https://main.d13yspuepcv5kl.amplifyapp.com/) - CI/CD (About 60 seconds)  
 2. [Via GitHub Pages Docs folder](https://model.earth/amplifyapp/) - Manual copy of build folder  
 
 Amplify Ecosystem - [Graphic in video](https://www.youtube.com/watch?v=y7AesEGIRYM&feature=youtu.be&t=145)  
@@ -19,7 +19,7 @@ Local edits appear instantly in browser - by using `npm start`
 [AWS Terminology](terminology.html) | 
 [Notes on Aurora DB and SageMaker](notes.html)  
 
-We're hosting on AWS. You can also use Azure, Firebase, [See more, plus helpful routing info](https://create-react-app.dev/docs/deployment/)  
+We're hosting on AWS. You can also use Azure, Firebase, [See more, plus helpful routing info](https://create-react-app.dev/docs/deployment/). And see [more host discussion](https://dev.to/dsteenman/where-should-i-host-my-static-website-66a).  
 Also see [monorepo setup](https://aws.amazon.com/blogs/mobile/set-up-continuous-deployment-and-hosting-for-a-monorepo-with-aws-amplify-console/) which could be used for ballotnav's 2 repos.
 <br><br>
 
