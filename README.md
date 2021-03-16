@@ -12,4 +12,6 @@ For example, there is no clearly stated information that using RDS is the afford
 
 There is also no documentation on how to resolve the error that occurs when making a snapshot once IP addresses have been assigned to a Windows server.
 
-Also beware, turning on notifications does not guarantee you will be notified as costs accure. Check your server billing at least twice a week to make sure you don't have any runaway charges.
+Also beware, turning on notifications does not guarantee you will be notified as costs accure. Check your server billing at least twice a week to make sure you don't have any runaway charges.  
+
+View our [Windows server setup notes](../setup/)
