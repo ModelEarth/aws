@@ -19,6 +19,8 @@ Local edits appear instantly in browser - by using `npm start`
 [AWS Terminology](terminology.html) | 
 [Notes on Aurora DB and SageMaker](notes.html)  
 
+[Hands On Tutorials](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.q=amplify&getting-started-all.q_operator=AND)  
+
 We're hosting on AWS. You can also use Azure, Firebase, [See more, plus helpful routing info](https://create-react-app.dev/docs/deployment/). And see [more host discussion](https://dev.to/dsteenman/where-should-i-host-my-static-website-66a).  
 Also see [monorepo setup](https://aws.amazon.com/blogs/mobile/set-up-continuous-deployment-and-hosting-for-a-monorepo-with-aws-amplify-console/) which could be used for ballotnav's 2 repos.
 <br><br>
@@ -142,6 +144,7 @@ Only works in Chrome, Brave and Safari advise to delete cookies, even with no pr
 [AWS Terminology](terminology.html) | 
 [Notes on Aurora DB and SageMaker](notes.html)  
 
+Also: [AWS Amplify, Cognito And React Example](https://medium.com/@corymaklin/aws-part-7-user-sign-up-sign-in-and-access-control-using-amplify-cognito-and-react-c484ed8bb44)
 
 ## Add a Database
 
