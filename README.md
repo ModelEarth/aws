@@ -6,11 +6,15 @@ View our [Amplify setup notes](amplify)
 
 ## Getting started with Windows hosting on Amazon AWS  
 
-As of March 2021, the Amazon AWS controls are not geared toward saving customers money. The setup info and desktop controls avoid giving customers clear options hosting alternative and simple controls to downsize to affordable options.  
+Generally the Amazon AWS controls are not geared toward saving customers money, so you'll need to be savvy and avoid the default settings.  When hosting SQL with Windows, use RDS. Hosting SQL on the same machine is significantly more costly.  
 
-For example, there is no clearly stated information that using RDS is the affordable alternative to hosting SQL on the same server as IIS. Nor does phone support did not offer this as a suggestion when attempting to match the prices of other service providers.   
+Unlike Amazon.com where customer reviews and feedback help guide the user toward informed choices, you'll find a dirth of collaboration and constructive guidance in the AWS ecosystem. Buyer beware.  
 
-There is also no documentation on how to resolve the error that occurs when making a snapshot once IP addresses have been assigned to a Windows server.
+### Recommendations for a more customer-centric AWS for greater user retention
+
+You'll find there is no information stating that using RDS is the affordable alternative to hosting SQL, rather than using the same server as IIS.  
+
+There is no documentation on how to downsize after moving SQL to RDS. (You'll need to deactivate your IP address to avoid a vague error when making a snapshot.)  
 
 Also beware, turning on notifications does not guarantee you will be notified as costs accure. Check your server billing at least twice a week to make sure you don't have any runaway charges.  
 
