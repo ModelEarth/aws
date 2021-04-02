@@ -1,21 +1,20 @@
 # Amazon AWS
 
-## Amplify App Notes
-
-View our [Amplify setup notes](amplify)  
+Also view our [AWS Amplify setup notes](amplify)  
 
 ## Getting started with Windows hosting on Amazon AWS  
 
-Generally the Amazon AWS controls are not geared toward saving customers money, so you'll need to be savvy and avoid the default settings.  When hosting SQL with Windows, use RDS. Hosting SQL on the same machine is significantly more costly.  
+**TIP 1: When hosting SQL with Windows, use RDS.**  
+Hosting SQL on the same machine is significantly more costly because only the large virtual machines are supported.   
 
-Unlike Amazon.com where customer reviews and feedback help guide the user toward informed choices, you'll find a dirth of collaboration and constructive guidance in the AWS ecosystem. Buyer beware.  
+After spending several months configuring and testing our move to a large virtual machine, we worked with support to figure out how to downsize the machine when we discovered we were being charged $400/month during this time. To Amazon's credit, they agreed to apply charges to future hosting once we were ready to launch our new virtual machine.  
 
-### Recommendations for a more customer-centric AWS for greater user retention
+The AWS frontend do not provide an opportunity for customers to post reviews and feedback like Amazon.com, so we're sharing the following feedback and setup steps to help guide other users toward informed choices, some that the AWS support staff were not able to provide.  
 
-You'll find there is no information stating that using RDS is the affordable alternative to hosting SQL, rather than using the same server as IIS.  
+**Recommendations for AWS**
 
-There is no documentation on how to downsize after moving SQL to RDS. (You'll need to deactivate your IP address to avoid a vague error when making a snapshot.)  
+One the server size page, display a message that RDS is the affordable alternative to hosting SQL on a single large OS where IIS also resides.  
 
-Also beware, turning on notifications does not guarantee you will be notified as costs accure. Check your server billing at least twice a week to make sure you don't have any runaway charges.  
+Provide documentation on how to downsize after moving SQL to RDS. (You'll need to deactivate your IP address to avoid a vague error when making a snapshot.)  
 
-View our [Windows server setup notes](../setup/)
+Turning on billing notifications does not guarantee you will be notified as costs accure. Check your server billing at least twice a week to make sure you don't have any runaway charges.  
